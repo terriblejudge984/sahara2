@@ -19,7 +19,7 @@ body {
   padding-left:7%;
   padding-right:8%;
   box-sizing: border-box;
-  position:absolute;
+  /* position:absolute; */
   overflow:hidden;
       /*top:0;*/
     /*bottom:0;*/
@@ -28,7 +28,9 @@ body {
    
   
 }
-
+.container-newsletter{
+  width: 100%;
+}
 .navbar{
   height:12%;
   display:flex;
@@ -109,8 +111,8 @@ button {
     border: 0;
     border-radius: 20px;
     outline: none;
-    margin-top: 170px;
-    margin-left: -580px;
+   /*  margin-top: 170px; */
+    /* margin-left: -580px; */
     cursor:pointer;
 }
 
@@ -204,13 +206,13 @@ h5{
 
 
 
-/*/---------------------------------------------------------------------*Footer-------------------------------------------*/*/
+/*/---------------------------------------------------------------------*Footer-------------------------------------------*/
 
 .footer-about2 {
     background: #333;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 12%);
     box-sizing: border-box;
-    width: 100vw;
+    width: 100%;
     text-align: left;
     min-height: calc(100vh - 768px -125px);
     height: 279px;
