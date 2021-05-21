@@ -1,0 +1,362 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+  min-height: 100vh;
+}
+
+
+.container{
+  width:100%;
+  height:120vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../img/background.png');
+  background-position: center;
+  background-size:cover;
+  padding-left:7%;
+  padding-right:8%;
+  box-sizing: border-box;
+  position:absolute;
+  overflow:hidden;
+      /*top:0;*/
+    /*bottom:0;*/
+    /*left:0;*/
+    /*right:0;*/
+   
+  
+}
+
+.navbar{
+  height:12%;
+  display:flex;
+  align-items:center;
+}
+
+.logo{
+  width: 50px;
+  cursor:pointer;
+}
+
+.menu-icon{
+  width:30px;
+  cursor:pointer;
+  margin-left: 40px;
+}
+
+nav{
+  text-align:right;
+  flex:1;
+  
+}
+
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left:50px;
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size:14px;
+}
+
+ul li a:hover{
+  background-color:#fff;
+  color:#000;
+  
+  
+}
+
+
+
+ul li.active a{
+  background-color:#fff;
+  color:#000;
+}
+
+.row{
+  display:flex;
+  height:58%;
+  align-items:center;
+}
+
+.col{
+  flex-basis: 50%;
+}
+
+h1{
+  font-size:40px;
+  color:#fff;
+}
+
+p{
+  color:#fff;
+  font-size:20px;
+  line-height:15px;
+}
+
+button {
+    width: 90px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 170px;
+    margin-left: -580px;
+    cursor:pointer;
+}
+
+.card{
+  width: 200px;
+  height: 240px;
+  display:inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin:10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  
+}
+
+.card1 {
+    background-image: url(../img/pic-1.png);
+    position: absolute;
+    right: 90px;
+    margin-right:239px;
+    margin-top: -135px;
+}
+
+.card2 {
+    background-image: url(../img/pic-2.png);
+    position: absolute;
+    right: 105px;
+    margin-right: 3px;
+    margin-top: -135px;
+}
+
+
+.card3{
+  background-image:url('../img/pic-3.png');
+  position: absolute;
+  right: 110px;
+  margin-right: 218px;
+  margin-top: 117px;
+}
+
+.card4 {
+    background-image: url(../img/pic-4.png);
+    position: absolute;
+    right: 110px;
+    margin-right: 3px;
+    margin-top: 117px;
+}
+
+.card:hover{
+  transform: translateY(-20px);
+}
+
+h5{
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+
+.card p {
+  text-shadow: 0 0 15px #000;
+  font-size: 12px;
+  color:black ;
+}
+
+/*----------------------------------------------------------------------Newsletter--------------------------------------------------------------------------*/
+
+/* Newsletter */
+#newsletter{
+  padding:13px;
+  height:7vh;
+  color:#ffffff;
+  background:#1f1717;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:4px;
+}
+
+#newsletter input[type="email"] {
+    padding: 3px;
+    height: 20px;
+    width: 250px;
+}
+
+
+
+/*/---------------------------------------------------------------------*Footer-------------------------------------------*/*/
+
+.footer-about2 {
+    background: #333;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 12%);
+    box-sizing: border-box;
+    width: 100vw;
+    text-align: left;
+    min-height: calc(100vh - 768px -125px);
+    height: 279px;
+    font: bold 16px sans-serif;
+    padding: 51px 21px;
+}
+
+
+
+
+.footer-about2 .footer-left,
+.footer-about2 .footer-center,
+.footer-about2 .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+ /*Footer left*/
+
+.footer-about2 .footer-left{
+	width: 40%;
+}
+
+ /*The company logo*/
+
+.footer-about2 h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-about2 h3 span{
+	color:  lightseagreen;
+}
+
+ /*Footer links*/
+
+.footer-about2 .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-about2 .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-about2 .footer-company-name{
+	color:  white;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+ /*Footer Center*/
+
+.footer-about2 .footer-center{
+	width: 35%;
+}
+
+.footer-about2 .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-about2 .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-about2 .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-about2 .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-about2 .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-about2 .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-about2 .footer-links .link-1:before {
+  content: none;
+}
+
+ /*Footer Right*/
+
+.footer-about2 .footer-right{
+	width: 20%;
+}
+
+.footer-about2 .footer-company-about{
+	line-height: 15px;
+	color:  white;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-about2 .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-about2 .footer-icons{
+  margin-top:5px;
+}
+
+.copyright-fruit{
+  font: bold 16px sans-serif;
+  text-align: center;
+  color:  #ffffff;
+  margin-top: 10px;
+  
+}
